@@ -1,20 +1,23 @@
 #include <stdlib.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 void main () {
-    int num1, num2, g1, g2, g3, g4, g5, soma;
-    printf("Digite a quantidade de litro do galão\n");
-    scanf(num1\n);
-    printf ("Digite a quantidade de garrafas\n");
-    scanf(num2\n);
-    if (num2>2)
-    {
-        printf("Digite quantos litros tem a garrafa numero 1?/n");
-        scanf(g1\n);
-        printf("Digite quantos litros tem a garrafa numero 2?/n")
-        scanf(g2\n);
+    //Variaveis locais
+    int a, b, c;
+    printf("Dado um conjunto de 3 garrafas d agua, escolha quais garrafas\npreenchem de forma adequada um galao com 6 litros, usando todas as garrafas\n");
 
-    }
+    //Bloco:  Selecao da quantidade de litros para as unidades de garrafas
+    printf("Digite a quantidade de litros da garrafa numero 1\n");
+    scanf("%d\n", &a);
+    printf("Digite a quantidade de litros da garrafa numero 2\n");
+    scanf("%d\n", &b);
+    printf("Digite a quantidade de litros da garrafa numero 3\n");
+    scanf("%d\n", &c);
+
+//Obrigado pela oportunidade pessoal, gostaria de poder solucionar esse desafio
+//Gostaria de poder trabalhar junto com você e poder aprender a solucionar esse
+//e muitos outros milhares de desafios 
     
+    system("pause");
 }
 
